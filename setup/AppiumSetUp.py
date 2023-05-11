@@ -45,13 +45,3 @@ def stop_appium_server(appium_process):
             print("Failed to stop Appium server.")
     else:
         print("No Appium server process to stop.")
-
-
-# Start the Appium server
-appium_process = start_appium_server()
-
-# Wait for some time or perform your tests
-time.sleep(10)
-
-# Stop the Appium server
-stop_appium_server(appium_process)
