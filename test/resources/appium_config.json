@@ -1,0 +1,8 @@
+{
+    "platformName": "Android",
+    "appium:platformVersion": "13.0",
+    "appium:deviceName": "R52N914QPZM",
+    "appium:appPackage": "com.qustodio.qustodioapp",
+    "appium:appActivity": "com.qustodio.qustodioapp.ui.splash.SplashScreenActivity",
+    "newCommandTimeout": 300
+}
