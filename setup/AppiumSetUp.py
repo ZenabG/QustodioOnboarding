@@ -20,10 +20,6 @@ def start_appium_server():
     # Start the Appium server using subprocess
     appium_process = subprocess.Popen(appium_command, shell=True)
 
-    # Wait for the server to start (optional)
-    # You can add a delay here to allow the server to start up properly
-    # For example, time.sleep(5) to wait for 5 seconds
-
     # Check if the server started successfully
     if appium_process.poll() is None:
         print("Appium server started successfully.")
