@@ -3,15 +3,6 @@ import time
 from appium import webdriver
 import json
 
-DESIRE_CAPABILITY = {
-    "platformName": "Android",
-    "appium:platformVersion": "13.0",
-    "appium:deviceName": "R52N914QPZM",
-    "appium:appPackage": "com.qustodio.qustodioapp",
-    "appium:appActivity": "com.qustodio.qustodioapp.ui.splash.SplashScreenActivity",
-    "newCommandTimeout": 300
-}
-
 
 def appium_driver(config_file):
     with open(config_file, 'r') as file:
@@ -68,6 +59,3 @@ time.sleep(10)
 
 # Stop the Appium server
 stop_appium_server(appium_process)
-
-
-
